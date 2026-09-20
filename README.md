@@ -2,7 +2,7 @@
 
 A web app that tells a commuting student exactly which train to catch — both to and from college — based on their weekly class schedule. Built as an application of discrete mathematics concepts (posets, relations, predicate logic) to a real, everyday problem: checking m-Indicator every morning.
 
-**🔗 Live app:** _add your Streamlit Cloud URL here_
+**🔗 Live app:** [train-notifier-5evvxonhehuhg6nt4w3ykj.streamlit.app](https://train-notifier-5evvxonhehuhg6nt4w3ykj.streamlit.app/)
 
 ## What it does
 
@@ -38,6 +38,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+Fill in your commute profile and weekly timetable in the UI. To also get Telegram notifications, add your bot token and chat ID in the sidebar (see [BotFather](https://t.me/BotFather) to create a bot).
+
 ## Files
 
 - `app.py` — engine + weekly logic + Streamlit UI, all in one file
@@ -53,4 +55,4 @@ streamlit run app.py
 
 ---
 
-Built by Priyani Mondal as a discrete mathematics coursework project, Second Year B.Tech. CSBS, K. J. Somaiya College of Engineering.
+Built by Priyani Mondal as a discrete mathematics coursework project, Second Year B.Tech CSBS, K. J. Somaiya.

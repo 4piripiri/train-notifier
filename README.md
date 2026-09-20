@@ -38,7 +38,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Fill in your commute profile and weekly timetable in the UI. To also get Telegram notifications, add your bot token and chat ID in the sidebar (see [BotFather](https://t.me/BotFather) to create a bot).
 
 ## Files
 

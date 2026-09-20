@@ -4,6 +4,8 @@ A web app that tells a commuting student exactly which train to catch — both t
 
 **🔗 Live app:** [train-notifier-5evvxonhehuhg6nt4w3ykj.streamlit.app](https://train-notifier-5evvxonhehuhg6nt4w3ykj.streamlit.app/)
 
+Fill in your commute profile and weekly timetable in the UI. To also get Telegram notifications, add your bot token and chat ID in the sidebar (see BotFather to create a bot).
+
 ## What it does
 
 - Enter your weekly class start/end times once

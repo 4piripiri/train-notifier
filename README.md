@@ -38,8 +38,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Fill in your commute profile and weekly timetable in the UI. To also get Telegram notifications, add your bot token and chat ID in the sidebar (see [BotFather](https://t.me/BotFather) to create a bot).
-
 ## Files
 
 - `app.py` — engine + weekly logic + Streamlit UI, all in one file
@@ -55,4 +53,4 @@ Fill in your commute profile and weekly timetable in the UI. To also get Telegra
 
 ---
 
-Built by [your name] as a discrete mathematics coursework project, First-Year BTech CS, K. J. Somaiya.
+Built by Priyani Mondal as a discrete mathematics coursework project, Second Year B.Tech. CSBS, K. J. Somaiya College of Engineering.

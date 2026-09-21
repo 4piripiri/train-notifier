@@ -13,7 +13,7 @@ Fill in your commute profile and weekly timetable in the UI. To also get Telegra
 - Optionally get your daily plan sent straight to your phone via a Telegram bot
 - A "Ladies Special" toggle surfaces that option separately when one exists in your valid time window, for both directions
 
-[ ] Live delay data instead of static timetable
+## Live delay data instead of static timetable
 
 On live delay data: This app intentionally uses static timetable data rather than live delays. There is no free, public API for Mumbai suburban (harbour line) train status, m-Indicator's own "live status" is crowdsourced from commuters phones in real time, not pulled from a railway API, and third-party rail APIs (e.g. railwayapi.com) only cover numbered express/long-distance trains, not suburban EMU locals. A crowdsourced delay-reporting system (similar to m-Indicator's) is technically buildable, but only becomes useful with a critical mass of active users constantly reporting, without that, it would just be an empty feature that looks broken rather than a working one. Given the current scope, static timetable data with the (well-documented) tradeoffs above was the more honest engineering choice than shipping a live-data feature that can't actually function yet.
 
